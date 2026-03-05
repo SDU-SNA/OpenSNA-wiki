@@ -1,9 +1,18 @@
+# Dependencies
 node_modules
-.DS_Store
+
+# Build output
 dist
-*.local
+wiki/.vitepress/dist
+
+# Cache
 .vitepress/cache
-.vitepress/dist
+wiki/.vitepress/cache
+cache
+
+# Local files
+*.local
+.DS_Store
 
 # Reference projects
 BIThesis-wiki-main/
