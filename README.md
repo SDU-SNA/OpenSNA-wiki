@@ -32,3 +32,11 @@ pnpm preview
 
 - VitePress 1.6.4
 - Vue 3.5.29
+
+## 项目结构
+
+详见 [STRUCTURE.md](./STRUCTURE.md)
+
+## 快速开始
+
+详见 [QUICKSTART.md](./QUICKSTART.md)
