@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'OpenSNA',
   description: 'OpenSNA 项目文档',
+  base: '/OpenSNA-wiki/',
   
   lastUpdated: true,
   
