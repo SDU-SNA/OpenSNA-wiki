@@ -4,3 +4,6 @@ dist
 *.local
 .vitepress/cache
 .vitepress/dist
+
+# Reference projects
+BIThesis-wiki-main/
