@@ -17,7 +17,7 @@ hero:
       link: /guide/
     - theme: alt
       text: GitHub
-      link: https://github.com/your-repo/opensna
+      link: https://github.com/SDU-SNA/OpenSNA-wiki
 
 features:
   - icon: 📊

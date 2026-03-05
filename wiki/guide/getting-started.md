@@ -13,7 +13,7 @@ pip install opensna
 ### 从源码安装
 
 ```bash
-git clone https://github.com/your-repo/opensna.git
+git clone https://github.com/SDU-SNA/OpenSNA-wiki.git
 cd opensna
 pip install -e .
 ```

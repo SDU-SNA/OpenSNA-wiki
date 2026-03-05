@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: '指南', link: '/guide/' },
       { text: 'API', link: '/api/' },
-      { text: 'GitHub', link: 'https://github.com/your-repo/opensna' }
+      { text: 'GitHub', link: 'https://github.com/SDU-SNA/OpenSNA-wiki' }
     ],
     
     sidebar: {
@@ -37,11 +37,11 @@ export default defineConfig({
     },
     
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-repo/opensna' }
+      { icon: 'github', link: 'https://github.com/SDU-SNA/OpenSNA-wiki' }
     ],
     
     editLink: {
-      pattern: 'https://github.com/your-repo/opensna-wiki/edit/main/wiki/:path',
+      pattern: 'https://github.com/SDU-SNA/OpenSNA-wiki/edit/main/wiki/:path',
       text: '在 GitHub 上编辑此页'
     },
     
