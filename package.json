@@ -1,0 +1,14 @@
+{
+  "name": "opensna-wiki",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev wiki",
+    "build": "vitepress build wiki",
+    "preview": "vitepress preview wiki"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.29"
+  }
+}
