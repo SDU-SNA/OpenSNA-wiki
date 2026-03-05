@@ -1,0 +1,43 @@
+:root {
+  /* Brand colors */
+  --vp-c-brand: #3b82f6;
+  --vp-c-brand-light: #60a5fa;
+  --vp-c-brand-lighter: #93c5fd;
+  --vp-c-brand-dark: #2563eb;
+  --vp-c-brand-darker: #1d4ed8;
+  
+  /* Custom block colors */
+  --vp-custom-block-tip-text: var(--vp-c-brand);
+  --vp-custom-block-tip-border: rgba(59, 130, 246, 0.25);
+  --vp-custom-block-tip-bg: rgba(59, 130, 246, 0.05);
+  
+  /* Button colors */
+  --vp-button-brand-border: var(--vp-c-brand);
+  --vp-button-brand-bg: rgba(59, 130, 246, 0.9);
+}
+
+/* Hero gradient */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(120deg, #3b82f6, #8b5cf6);
+}
+
+/* Link styles */
+.vp-doc a {
+  text-decoration: none;
+}
+
+.vp-doc a:hover {
+  text-decoration: underline;
+}
+
+/* External link icon */
+.vp-doc
+  :is(.vp-external-link-icon, .vp-doc a[href*='://'], .vp-doc a[target='_blank']):not(
+    :is(.no-icon, svg a, :has(img, svg))
+  )::after {
+  margin: 2px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
